@@ -42,13 +42,7 @@ class Car extends Vehicle{
     }
 }
 class Main {
-    public static void main(String[] args) {
-    /*Vehicle v = new Vehicle();
-    v.setname();
-    v.getname();
-    v.getid();
-    v.getyear();*/
-    
+    public static void main(String[] args) {    
     Car c = new Car();
     c.setname();
     c.getname();
@@ -57,4 +51,5 @@ class Main {
     c.getbrand();
         
     }
+
 }
