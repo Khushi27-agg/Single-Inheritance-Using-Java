@@ -9,14 +9,9 @@ class Vehicle{
     
     //Constructor
     public Vehicle(){
-        System.out.println("This is a base class");
         year=2022;
-        ownername="Aarti";
-        id=90012;
-    }
-    public String setname(){
-        ownername="Khushi";
-        return ownername;
+        ownername="ABC";
+        id=123;
     }
     public void getname(){
         System.out.println("The name of the owner is:"+ownername);
@@ -44,7 +39,6 @@ class Car extends Vehicle{
 class Main {
     public static void main(String[] args) {    
     Car c = new Car();
-    c.setname();
     c.getname();
     c.getid();
     c.getyear();
@@ -53,3 +47,4 @@ class Main {
     }
 
 }
+
